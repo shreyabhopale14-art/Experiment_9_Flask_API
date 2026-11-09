@@ -1,0 +1,31 @@
+
+EXPERIMENT NO. 9
+REST API USING FLASK
+
+Deployment Workflow:
+
+1. Created project folder.
+2. Created Python virtual environment.
+3. Installed Flask, Pandas and Scikit-learn.
+4. Loaded Iris dataset.
+5. Trained Random Forest ML model.
+6. Saved model as model.pkl.
+7. Created Flask REST API using app.py.
+8. Started Flask server on port 5000.
+9. Tested API using Postman.
+10. Sent POST request with JSON input.
+11. Received prediction in JSON format.
+12. Analyzed response time and model accuracy.
+
+API URL: http://127.0.0.1:5000/predict
+
+HTTP Method: POST
+
+Model: Random Forest Classifier
+
+Dataset: Iris Dataset
+
+Model Accuracy: 100% (test dataset)
+
+Result: REST API successfully developed
+and tested using Postman.
